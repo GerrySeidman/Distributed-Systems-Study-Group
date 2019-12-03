@@ -16,9 +16,12 @@
     * [Linux Network Tools](linuxNetworkTools.md)
          (explore and play with these)
     
-    * socat
+    * curl
 
     * Quick local HTTP Server (such as http-server with NodeJS)
+
+    * socat
+    
 
 * tmux
 

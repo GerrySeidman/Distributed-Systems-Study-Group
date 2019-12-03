@@ -4,7 +4,7 @@ This repository will house the work from the Distributed Sstems Study Group orga
 
 # Presentation Material
 
-*  [Dec 3rd, 2019 - Intro](presentations/Intro-12-03-19.pdf)
+*  [Dec 3rd, 2019 - DSSG First Meeting](presentations/DSSG-12-3-19.pdf)
     * Overview of Distributed Systems
         * What we’d like to build
     * Quick Overview
