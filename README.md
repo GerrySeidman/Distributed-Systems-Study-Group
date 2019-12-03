@@ -11,7 +11,8 @@ This repository will house the work from the Distributed Sstems Study Group orga
         * File Systems
         * Networking
     * Understanding Containers
-    * UnswearNSINF Kubernetes 
+    * Understanding Kubernetes 
+
 # Useful Tools
 
 * [See Starter Page - Expand with your favorites](tools/README.md)
