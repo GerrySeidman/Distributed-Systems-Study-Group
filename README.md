@@ -4,7 +4,7 @@ This repository will house the work from the Distributed Sstems Study Group orga
 
 # Important Links
 * [Request joining the Google Group](https://groups.google.com/forum/#!forum/distributed-systems-study-group)
-* [To join the Slack Channl](https://dssg-workspace.slack.com/)
+* [To join the Slack Channel](https://dssg-workspace.slack.com/)
 
 # Presentation Material
 
