@@ -2,6 +2,10 @@
 
 This repository will house the work from the Distributed Sstems Study Group organized by Gerry Seidman and started Dec 3rd, 2010
 
+# Important Links
+* [Request joining the Google Group](https://groups.google.com/forum/#!forum/distributed-systems-study-group)
+* [To join the Slack Channl](https://dssg-workspace.slack.com/)
+
 # Presentation Material
 
 *  [Dec 3rd, 2019 - DSSG First Meeting](presentations/DSSG-12-3-19.pdf)
