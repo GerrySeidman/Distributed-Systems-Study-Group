@@ -2,6 +2,14 @@
 
 This repository will house the work from the Distributed Sstems Study Group organized by Gerry Seidman and started Dec 3rd, 2010
 
+This group is a collaborative effort. Everyone has something to contribute
+* Present Topics
+* Work on this Repository
+    * Update Meeting Notes
+    * Edit/Augment Topic Sections; Useful Tools; etc
+* Help others during working groups
+* [Actively Participate on our Slack Channel](#howToParticipate)
+
 # Upcoming Meetings 
 
 * Tuesday Dec 10, 6-9M
@@ -12,6 +20,7 @@ This repository will house the work from the Distributed Sstems Study Group orga
 
 * [Notes from Past Meetings](meetingNotes/README.md)
 
+<a id="howToParticipate"></a>
 # How to Participate in the DSSG
 * [Request joining the Google Group](https://groups.google.com/forum/#!forum/distributed-systems-study-group)
 * [To join the Slack Channel](https://dssg-workspace.slack.com/)
@@ -33,3 +42,4 @@ This repository will house the work from the Distributed Sstems Study Group orga
 # Useful Tools
 
 * [See Starter Page - Expand with your favorites](tools/README.md)
+
