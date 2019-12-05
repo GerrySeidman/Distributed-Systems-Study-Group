@@ -12,12 +12,22 @@ You are welcome to participate remotely, though the presentations and hands-on m
 
 
 This group is a collaborative effort. Everyone has something to contribute
-* Present Topics
-* Work on this Repository
+* Present Topics (see Planning Spreadsheet below)
+* Work on this Repository (see Planning Spreadsheet below)
     * Update Meeting Notes
     * Edit/Augment Topic Sections; Useful Tools; etc
 * Help others during working groups
 * Actively Participate on our Slack Channel
+
+### Planning Spreadsheet
+So people know what others are working on there is a Google Sheet 
+* [Google Planning Sheet](https://docs.google.com/spreadsheets/d/1z1dPJTVdZcgb4hQwultcTQKZMfylgzN-vo-1vEtBIo8/edit?folder=1cOZqwtdXc0OFYofPUgukaOk6l3JC9-sP#gid=0) 
+
+* Lists of ongoing and open tasks
+    * This will identify who is taking the lead on a task and who is interested in collaborating on that task
+* There is a tab for ***Git Repository Planning*** (this repo)
+* There is a tab for ***Presentation Planning***  
+    
 
 # Upcoming Meetings 
 
