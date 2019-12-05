@@ -7,7 +7,7 @@ This repository will house the work from the Distributed Sstems Study Group orga
 * Tuesday Dec 10, 6-9M
     * [Agenda and RSVP here](https://docs.google.com/forms/d/1QvDfTGbQxCyZ3zhzNxESMgdOeR6yQUoOtEAQbrSgtCo)
 
-* Tuesday Dec 17, 6-9M 0
+* Tuesday Dec 17, 6-9M
     * [Agenda and RSVP here](https://docs.google.com/forms/d/1cN2QraImfXlUMsLmphRU5Tr17FCkt7JfSzQMXAv-P-A)
 
 * [Notes from Past Meetings](meetingNotes/README.md)
