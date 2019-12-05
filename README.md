@@ -1,35 +1,24 @@
-# Distributed-Systems-Study-Group
+# Distributed-Systems-Study-Group (DSSG)
 
 This repository will house the work from the Distributed Sstems Study Group organized by Gerry Seidman and started Dec 3rd, 2010
 
-# Upcoming Meetings
+# Upcoming Meetings 
 
 * Tuesday Dec 10, 6-9M
-    * [RSVP here](https://docs.google.com/forms/d/1QvDfTGbQxCyZ3zhzNxESMgdOeR6yQUoOtEAQbrSgtCo)
+    * [Agenda and RSVP here](https://docs.google.com/forms/d/1QvDfTGbQxCyZ3zhzNxESMgdOeR6yQUoOtEAQbrSgtCo)
 
-* Tuesday Dec 17, 6-9M
-    * [RSVP here](https://docs.google.com/forms/d/1cN2QraImfXlUMsLmphRU5Tr17FCkt7JfSzQMXAv-P-A)
+* Tuesday Dec 17, 6-9M 0
+    * [Agenda and RSVP here](https://docs.google.com/forms/d/1cN2QraImfXlUMsLmphRU5Tr17FCkt7JfSzQMXAv-P-A)
 
-# Important Links
+* [Notes from Past Meetings](meetingNotes/README.md)
+
+# How to Participate in the DSSG
 * [Request joining the Google Group](https://groups.google.com/forum/#!forum/distributed-systems-study-group)
 * [To join the Slack Channel](https://dssg-workspace.slack.com/)
 
-# Presentation Material
 
-*  [Dec 3rd, 2019 - DSSG First Meeting](presentations/DSSG-12-3-19.pdf)
-    * Overview of Distributed Systems
-        * What we’d like to build
-    * Quick Overview
-        * File Systems
-        * Networking
-    * Understanding Containers
-    * Understanding Kubernetes 
 
-# Useful Tools
-
-* [See Starter Page - Expand with your favorites](tools/README.md)
-
-# Topics
+# Topic Notes
 
 * [Setting up Virtual Machines](vms/README.md)
     * [[Optional] Setting up the DNS Server](dns/README.md)
@@ -38,3 +27,9 @@ This repository will house the work from the Distributed Sstems Study Group orga
 * [Docker](docker/README.md)
 * [Kubernetes](kubernetes/README.md)
 * [Kafka](kafka/README.md)
+
+
+
+# Useful Tools
+
+* [See Starter Page - Expand with your favorites](tools/README.md)
