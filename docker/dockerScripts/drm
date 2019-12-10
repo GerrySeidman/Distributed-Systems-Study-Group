@@ -1,0 +1,5 @@
+TAG=${2:-latest}
+URL=http://iron-hill-4:5000/v2/$1/manifests/$TAG 
+
+curl -v --silent -H "Accept: application/vnd.docker.distribution.manifest.v2+json" -X GET $URL 2>&1 | grep Docker-Content-Digest | awk '{print ($3)}'
+

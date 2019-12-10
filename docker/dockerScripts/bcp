@@ -1,0 +1,9 @@
+echo Building the Docker image: $1
+sudo docker build --rm -t $1 --network=host .
+
+echo echo Tagging the Docker image: $1
+sudo docker tag $1 iron-hill-4:5000/$1
+
+echo echo Pushing the Docker image: $1
+sudo docker push iron-hill-4:5000/$1
+
