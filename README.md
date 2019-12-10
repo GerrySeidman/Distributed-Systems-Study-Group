@@ -31,9 +31,6 @@ So people know what others are working on there is a Google Sheet
 
 # Upcoming Meetings 
 
-* Tuesday Dec 10, 6-9M
-    * [Agenda and RSVP here](https://docs.google.com/forms/d/1QvDfTGbQxCyZ3zhzNxESMgdOeR6yQUoOtEAQbrSgtCo)
-
 * Tuesday Dec 17, 6-9M
     * [Agenda and RSVP here](https://docs.google.com/forms/d/1cN2QraImfXlUMsLmphRU5Tr17FCkt7JfSzQMXAv-P-A)
 
