@@ -21,9 +21,26 @@
     * Quick local HTTP Server (such as http-server with NodeJS)
 
     * socat
-    
 
-* tmux
+* Basic Linux
+    * General familiarity with Bash shell & programming
+    * grep
+    * awk
+    * sed
+    * ps
+    * df
+    * du
+    * sudo
+
+* Other Linux
+    * tmux
+    * watch
+    * top
+
+* Books    
+    * [Bash Cookbook](http://linux.iingen.unam.mx/Documentacion/Shell-Bash/Bash%20Cookbook~tqw~_darksiderg.pdf) (nice ge
+    * sed & awk
+    * [Beginners Guide to Linux Administration](http://linux.iingen.unam.mx/Documentacion/Shell-Bash/Linux%20Administration%205th%20Ed~tqw~_darksiderg.pdf)
 
 
     

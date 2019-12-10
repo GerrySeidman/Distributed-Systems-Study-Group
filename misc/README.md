@@ -11,3 +11,7 @@
 ## Service Mesh
 
 * [Istio](https://istio.io/)
+
+## Virtual File System
+
+* [A small trail through the Linux kernel](https://www.win.tue.nl/~aeb/linux/vfs/trail.html)

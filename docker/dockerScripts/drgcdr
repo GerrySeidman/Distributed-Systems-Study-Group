@@ -1,0 +1,1 @@
+sudo docker exec registry /bin/registry garbage-collect --dry-run /etc/docker/registry/config.yml 

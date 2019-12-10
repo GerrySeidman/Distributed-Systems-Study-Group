@@ -13,6 +13,7 @@
 * ***iwconfig:*** iwconfig command in Linux is use to configure a wireless network interface. You can see and set the basic Wi-Fi details like SSID channel and encryption.
 
 * ***ip:*** Show or manipulate routing, devices, policy routing and tunnels
+     (extends upon ifconfig)
 
 ## Network Traffic and DNS
 
