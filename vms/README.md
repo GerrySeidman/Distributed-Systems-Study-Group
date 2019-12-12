@@ -1,22 +1,28 @@
 # Virtual Machines
 
-We are going to set up VMs for the primary nodes of our Kubernetes Cluster.  
+We will need to set up at least 2 (ideally 3) VMs for our distributed systems
 
-Instructions for setting up your VMs
+> On 12/10 we tried doing this it using desktop VMs using VirtualBox/Hyper-V, but that proved difficult and unreliable.  Gerry updated our [VirtualBox](../VirtualBox.md) page with some new links, but perhaps doing this on a public cloud would be better
 
-* [Setting up your VMs using VirtualBox](virtualBox/README.md)
+>
+There is a [Task Page](../tasks/README.md) with several TO-DO tasks looking for volunteers.  
+* Items 1-3 are regarding documenting public cloud options 
+    * The folk researching public cloud VMs will also report on costs for basic VMs with at least 4Gb RAM and 25Gb Disk
+    * see [Task Page](../tasks/README.md) for more details
+* Item 4 is about documenting VirtualBox
+  * see [Task Page](../tasks/README.md) for more 
 
-* [Setting up your VMs using Hyper-V](hyper-v/README.md)
+Ideally we will settle on a public cloud option before next week and send people instructions.
 
+Instructions for setting up VMs
 
-# Setting up a "Stem" VM Image
+* [Setting up local VMs using VirtualBox](VirtualBox.md)
 
-It is a repetitive and slow process to set up a VM and install your base Linux for every node in your cluster.
+* [Setting up local VMs using Hyper-V](Hyper-V.md)
 
-While this is not necessarily 'standard' technique, it is useful for our purposes.
+* [Setting up cloud VMs on AWS](AWS.md)
 
-In the each VM section they describe out to set up a "Stem Cell" (my term) VM that has the base operating system and network configured.   We will use this to Clone all the other VM images from.  
+* [Setting up cloud VMs on Google Cloud](GoogleCloud.md)
 
-> There are other ways to do this with things like Teraform, but that is out of the scope of this study group 
-
+* [Setting up cloud VMs on Azure](Azure.md)
 

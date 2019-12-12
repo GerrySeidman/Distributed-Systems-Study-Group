@@ -1,19 +1,24 @@
 # Useful Tools
 
+## Required Development Tools
+
 * git
     * github desktop
 
 * IDE
     * [Visual Studio Code](https://code.visualstudio.com/)
-    
-* Markdown Files
-    * [Basic Syntax](https://www.markdownguide.org/basic-syntax)
-    * [Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 
 * ssh & scp
 
+## Required Skills
+    
+* Markdown File Editing
+    * [Basic Syntax](https://www.markdownguide.org/basic-syntax)
+    * [Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+
+
 * Network Tools
-    * [Linux Network Tools](linuxNetworkTools.md)
+    * Familiarity with [Linux Network Tools](linuxNetworkTools.md)
          (explore and play with these)
     
     * curl
@@ -31,12 +36,10 @@
     * df
     * du
     * sudo
-
-* Other Linux
-    * tmux
     * watch
     * top
-
+    * tmux
+ 
 * Books    
     * [Bash Cookbook](http://linux.iingen.unam.mx/Documentacion/Shell-Bash/Bash%20Cookbook~tqw~_darksiderg.pdf) (nice ge
     * sed & awk
