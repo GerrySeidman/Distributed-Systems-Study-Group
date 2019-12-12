@@ -1,5 +1,7 @@
 # Open Tasks Seeking Volunteers
 
+Seeking Volunteers to research, document and prepare to mentor others on one or more of items (1-6)
+
 ## Setting up VMs
 
 See the notes on the VM page, but basically we're going to have different people explore each option. 
@@ -44,7 +46,7 @@ Options to do this on a public cloud would be better, but not free.
         * Documenting the steps on our GitHub page or any thing not obvious or differnt that you had to do from a references link.
     * Be prepared to show people how to do it on Dec 17
 
-1. <a name="4"></a>Documenting Running Virtual Machines locally with Virtual Box
+1. <a name="4"></a>VirtualBox local VM instances
     * On 12/10 we tried to do this as a group with spotty success
     * Experiment with those instructions and put any 'gotcha' notes onto that page 
     * Update our [VirtualBox Page](../vms/VirtualBox.md) with notes and Gotchas 
@@ -56,9 +58,9 @@ Options to do this on a public cloud would be better, but not free.
     * If you really want to look at my old/dated notes (which proved to confuse people) they can be found in the Git branch [`with-bad-virtualbox-notes`](https://github.com/GerrySeidman/Distributed-Systems-Study-Group/tree/with-bad-virtualbox-notes)
     * Be prepared to show people how to do it on Dec 17
 
-## Install Docker and Docker Registry
+## Install Docker and Docker Registry & Set up Kubernetes Cluster
 
-5. <a name="5"></a>All the steps to install Docker and the Docker registry 
+5. <a name="5"></a>Set up Docker and Docker Registry
     * Install Docker on each VM
         * Verify that it works on each VM
     * Install a private Docker Registry on ONE of the machines
@@ -81,7 +83,7 @@ Options to do this on a public cloud would be better, but not free.
   ]
 }
 ```
-6. <a name="6"></a>All the steps for setting up a Kubernetes Cluster.  Gerry will take the lead on this, but other 'volunteers' are welcome to help documenting this.
+6. <a name="6"></a>Set up a Kubernetes Cluster.  Gerry will take the lead on this, but other 'volunteers' are welcome to help documenting this.
 
 * Installing kubeadm on all VMs machine
 * Create Master Node on one VM
