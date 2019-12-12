@@ -15,4 +15,3 @@
 * > To Do: Document the Hyper-V specific details for setting up the "Stem" VMs
 
 
-* [[Optional] Setting up DNS](../../dns/README.md)
