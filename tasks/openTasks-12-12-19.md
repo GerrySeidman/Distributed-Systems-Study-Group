@@ -2,6 +2,10 @@
 
 Seeking Volunteers to research, document and prepare to mentor others on one or more of items (1-6)
 
+Please add your name to the [DSSG Task Volunteer Sheet](https://docs.google.com/spreadsheets/d/1z1dPJTVdZcgb4hQwultcTQKZMfylgzN-vo-1vEtBIo8/edit#gid=0) as either a lead or one of the collaborators
+
+Don't forget that you can reach out to others in the group on the [DSSG Slack Channel](http://dssg-workspace.slack.com)
+
 ## Setting up VMs
 
 See the notes on the VM page, but basically we're going to have different people explore each option. 
