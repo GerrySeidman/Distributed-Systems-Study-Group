@@ -8,14 +8,12 @@ Don't forget that you can reach out to others in the group on the [DSSG Slack Ch
 
 ## Setting up VMs
 
-See the notes on the VM page, but basically we're going to have different people explore each option. 
-On 12/10 we tried to do this as a group with spotty success.  I updated the [VM [VirtualBox](../vms/VirtualBox.md) page with some other links.
+On 12/10 we tried to do this as a group with spotty success, so let's explore each of the below options and decide what is best for the group. It will also be good for the group to hear what people learned exploring these various approaches.
 
-Ideally everyone has their VMs set up in the same way.  We tried it using desktop VMs using VirtualBox/Hyper-V, but that proved difficult and unreliable.
+See the general notes on the [Main VM page](../vms/README.md).  The options to do this on a public cloud would be probably be best, but not free so we need to see the pricing for at least 2 (ideally 3) VMs for our distributed systems
 
-We are going to set up at least 3 (ideally 3) VMs for our distributed systems
+Ideally everyone has their VMs set up in the same way. Depending on people's research we will try to get some votes before 12/17 on which way we'll go.
 
-Options to do this on a public cloud would be better, but not free.
 
 1. <a name="1"></a>Google Cloud instances
     * Explore getting free accounts or accounts with credits
