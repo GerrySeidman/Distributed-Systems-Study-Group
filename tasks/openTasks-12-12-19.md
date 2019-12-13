@@ -91,4 +91,3 @@ Ideally everyone has their VMs set up in the same way. Depending on people's res
 * Create Master Node on one VM
 * Join each VM to the Kubernetes Cluster
  
-<a name="1"></a>
