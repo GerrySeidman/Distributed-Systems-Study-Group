@@ -1,5 +1,8 @@
 #  Past DSSG Meeting Notes
 
+## Meeting - Tuesday Dec 17th, 2019
+*  [Presentation Slides](DSSG-12-17-19.pdf)
+
 ## Meeting - Tuesday Dec 10th, 2019
 
 ### What was covered:
