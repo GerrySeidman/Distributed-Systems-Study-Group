@@ -1,9 +1,14 @@
 # Docker Containers
 
+## Installing Docker
+
+* [Onto Ubuntu (from Docker Site)](https://docs.docker.com/v17.09/engine/installation/linux/docker-ce/ubuntu)
+
+* [Deploy a Private Docker Registery (from Docker Site)] (https://docs.docker.com/registry/deploying/)
+    * NOTE: Only do this onto ONE VME (not all)
 ## External Links
 
-* Installing  Docker
-    * [Onto Ubuntu (Docker Site)](https://docs.docker.com/v17.09/engine/installation/linux/docker-ce/ubuntu)
+* [Docker Documentation](https://docs.docker.com)
 * [ContainerTutorials.com](http://containertutorials.com/)
 * [Managing Data with Docker](https://docs.docker.com/storage/)
 * [Docker OverlayFS](https://docs.docker.com/storage/storagedriver/overlayfs-driver/)
@@ -15,14 +20,26 @@
 
 ## Gerry's Docker Scripts
 
-* [bcp: Build - Tag - Push](dockerScripts/bcp)
-* [dr: Docker Run ](dockerScripts/bcp)
-* [rdi: Remove Docker Images](dockerScripts/bcp)
-* [drt: Tag](dockerScripts/bcp)
-* [sdi: Show Docker Images](dockerScripts/bcp)
-* [rdxi: Remove Exited Images](dockerScripts/bcp)
-* [drs:  Docker Registry Show](dockerScripts/bcp)
-* [drm: Docker Registry Manifest](dockerScripts/bcp)
-* [drx: ](dockerScripts/bcp)
-* [drgcdr:](dockerScripts/bcp)
+* Docker Basics
+
+    * [dr: Docker Run ](dockerScripts/dr)
+    * [dx: Docker Execute  ](dockerScripts/dx)
+
+    * [dr: Docker PS ](dockerScripts/dps)
+    * [dr: Docker PS All ](dockerScripts/dpsa)
+
+* Docker Repository (Local)
+    * [sdi: Show Docker Images](dockerScripts/dsi)
+
+    * [rdi: Remove Docker Images](dockerScripts/rdi)
+    * [rdxi: Remove Exited Images](dockerScripts/rdxi)
+
+* Docker Registry (Private)
+
+    * [bcp: Build - Tag - Push](dockerScripts/bcp)
+
+    * [drs: Docker Registry Show](dockerScripts/drs)
+    * [drm: Docker Registry Manifest](dockerScripts/drm)
+    * [drt: Docker Registry Tag](dockerScripts/drt)
+    * [drgcdr: Garbage Collect Registry (only registry host)](dockerScripts/drgcdr)
 
