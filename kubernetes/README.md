@@ -1,6 +1,6 @@
 # Kubernetes
 
-## Starting
+## Kuberentes Site Concepts/Tasks/Tutorials
 
 * [Kubernetes Concepts](https://kubernetes.io/docs/concepts/)
 
@@ -8,7 +8,7 @@
 
 * [Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/)
 
-## API Objects
+## API Objects 
 
 * [API Object Table](Kubernetes-API-Objects.xlsx)
 
