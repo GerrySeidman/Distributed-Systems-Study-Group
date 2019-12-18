@@ -112,4 +112,18 @@ There are several sets to setting up the Stem VM:
 ## Assigning the VMs a Static IP Address
 
   - Config for file /etc/netplan/50-cloud-init.yaml
-    ![](/Images/vms/VirtualBox/netplan-config.png)
+
+```yaml
+network:
+    ethernets:
+        enp0s3:
+            dhcp4: true
+        enp0s8:
+            dhcp4: no
+            addresses:
+              - 192.168.56.50/24
+            nameservers:
+                addresses: [8.8.8.8, 1.1.1.1]
+    version: 2
+    renderer: networkd
+```
