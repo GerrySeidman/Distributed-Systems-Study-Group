@@ -110,3 +110,6 @@ There are several sets to setting up the Stem VM:
 ## Cloning the Stem VM
 
 ## Assigning the VMs a Static IP Address
+
+  - Config for file /etc/netplan/50-cloud-init.yaml
+    ![](/Images/vms/VirtualBox/netplan-config.png)
