@@ -13,8 +13,8 @@
 
 * [How to Network Virtual Machines in VirtualBox](https://study.com/academy/lesson/)<BR> Paid Site, but the beginning is visible/useful
 
-| VM-Host | VM-VM |
-| --- | --- |
+| VM-Host | VM-VM | VM-External network | External network-VM | VM's IP Visiblity to the External Network |
+| --- | --- | --- | --- | --- |
 | NAT | No |
 | Host-only | Yes |
 
