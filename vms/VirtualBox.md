@@ -13,9 +13,10 @@
 
 * [How to Network Virtual Machines in VirtualBox](https://study.com/academy/lesson/)<BR> Paid Site, but the beginning is visible/useful
 
-| foo | bar |
+| VM-Host | VM-VM |
 | --- | --- |
-| baz | bim |
+| NAT | No |
+| Host-only | Yes |
 
 ## The most common network types in VirtualBox
 
