@@ -1,6 +1,11 @@
 # Setting up VMs using Virtual Box 
 
-External Links
+
+| foo | bar |
+| --- | --- |
+| baz | bim |
+
+## External Links
 * [Virtual Box Website](https://www.virtualbox.org/)
 
 * [Setting up Ubuntu Server 18.04 on VirtualBox 6](https://hadisinaee.github.io/posts/setting-up-vbox6/)
@@ -8,7 +13,11 @@ External Links
 
 * [How to Network Virtual Machines in VirtualBox](https://study.com/academy/lesson/)<BR> Paid Site, but the beginning is visible/useful
 
-* The most common network types in VirtualBox
+| foo | bar |
+| --- | --- |
+| baz | bim |
+
+## The most common network types in VirtualBox
 
 | VM<=>Host | VM<=>VM | VM<=>External network | External network<=>VM | VM's IP Visiblity to the External Network |
 |------ | ------ | ------ | ------ | ------ |------ |

@@ -3,6 +3,11 @@
 ## Meeting - Tuesday Dec 17th, 2019
 *  [Presentation Slides](DSSG-12-17-19.pdf)
 
+### What was covered:
+* Local VMs finally set up
+* We explored Docker
+* We discussed Cloud Providers
+
 ## Meeting - Tuesday Dec 10th, 2019
 
 ### What was covered:
