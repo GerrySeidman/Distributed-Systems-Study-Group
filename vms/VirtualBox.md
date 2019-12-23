@@ -1,10 +1,5 @@
 # Setting up VMs using Virtual Box 
 
-
-| foo | bar |
-| --- | --- |
-| baz | bim |
-
 ## External Links
 * [Virtual Box Website](https://www.virtualbox.org/)
 
@@ -12,12 +7,6 @@
 
 
 * [How to Network Virtual Machines in VirtualBox](https://study.com/academy/lesson/)<BR> Paid Site, but the beginning is visible/useful
-
-| VM-Host | VM-VM | VM-External network | External network-VM | VM's IP Visiblity to the External Network |
-| --- | --- | --- | --- | --- |
-| NAT | No | No | Yes | Yes (Port forwarding) | Hidden |
-| Host-only | Yes | Yes | No | No | Hidden |
-| Bridged | Yes | Yes | Yes | Yes | Visible |
 
 ## The most common network types in VirtualBox
 
