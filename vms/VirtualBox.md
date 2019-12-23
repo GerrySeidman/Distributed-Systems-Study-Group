@@ -15,7 +15,7 @@
 
 | VM-Host | VM-VM | VM-External network | External network-VM | VM's IP Visiblity to the External Network |
 | --- | --- | --- | --- | --- |
-| NAT | No |
+| NAT | No | No | Yes | Yes(Port forwarding) | Hidden |
 | Host-only | Yes |
 
 ## The most common network types in VirtualBox
