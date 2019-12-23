@@ -8,6 +8,12 @@
 
 * [Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/)
 
+## Can the Master also be a worker?
+* Yes: [See this posting](https://stackoverflow.com/questions/43147941/allow-scheduling-of-pods-on-kubernetes-master)
+```
+kubectl taint nodes --all node-role.kubernetes.io/master-
+```
+
 ## API Objects 
 
 * [API Object Table](Kubernetes-API-Objects.xlsx)

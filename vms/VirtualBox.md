@@ -1,6 +1,6 @@
 # Setting up VMs using Virtual Box 
 
-External Links
+## External Links
 * [Virtual Box Website](https://www.virtualbox.org/)
 
 * [Setting up Ubuntu Server 18.04 on VirtualBox 6](https://hadisinaee.github.io/posts/setting-up-vbox6/)
@@ -8,17 +8,15 @@ External Links
 
 * [How to Network Virtual Machines in VirtualBox](https://study.com/academy/lesson/)<BR> Paid Site, but the beginning is visible/useful
 
-* The most common network types in VirtualBox
+## The most common network types in VirtualBox
 
-| VM<=>Host | VM<=>VM | VM<=>External network | External network<=>VM | VM's IP Visiblity to the External Network |
-|------ | ------ | ------ | ------ | ------ |------ |
+| VM-Host | VM-VM | VM-External network | External network-VM | VM's IP Visiblity to the External Network |
+| --- | --- | --- | --- | --- |
 | NAT | No | No | Yes | Yes(Port forwarding) | Hidden |
 | Host-only | Yes | Yes | No | No | Hidden |
 | Bridged | Yes | Yes | Yes | Yes | Visible |
 
 
-- - - 
-- - - 
 
 # Setting up a "Stem" or "Base" VM Image
 

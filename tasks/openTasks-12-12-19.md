@@ -71,23 +71,17 @@ Ideally everyone has their VMs set up in the same way. Depending on people's res
         * To do that you need to add an `"insecure-registries"  ` element to that file.
             * in my private cluster my Docker Registry is running on the machine `iron-hill-4.auristor.io` at port 5000.  You will probably need to put the static IP address of the machine with your Registry
 
-``` json
-{
- "insecure-registries":["iron-hill-4.auristor.io:5000"],
-  "exec-opts": ["native.cgroupdriver=systemd"],
-  "log-driver": "json-file",
-  "log-opts": {
-    "max-size": "100m"
-  },
-  "storage-driver": "overlay2",
-  "storage-opts": [
-    "overlay2.override_kernel_check=true"
-  ]
-}
-```
 6. <a name="6"></a>Set up a Kubernetes Cluster.  Gerry will take the lead on this, but other 'volunteers' are welcome to help documenting this.
 
 * Installing kubeadm on all VMs machine
 * Create Master Node on one VM
 * Join each VM to the Kubernetes Cluster
+* See Kubernetes Nodes on using the Master as a worker
+    * We probably will want to do this so we can do all our playing with only 2 VMs
+
+
+7. <a name="7"></a>Set up a Kafka running in Kubernetes.  Gerry will take the lead on this, but other 'volunteers' are welcome to help documenting this.
+
+* Installing Kafka 
+* Running Kafka 'Hello world' 
  

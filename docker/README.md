@@ -5,15 +5,16 @@
 * [Onto Ubuntu (from Docker Site)](https://docs.docker.com/v17.09/engine/installation/linux/docker-ce/ubuntu)
 
 * [Deploy a Private Docker Registery (from Docker Site)] (https://docs.docker.com/registry/deploying/)
-    * NOTE: Only do this onto ONE VME (not all)
+    * NOTE: Only do this onto ONE VM (not all)
 ## External Links
 
 * [Docker Documentation](https://docs.docker.com)
+* [Docker Cheat Sheet](https://kapeli.com/cheat_sheets/Dockerfile.docset/Contents/Resources/Documents/index)
+* [DockerFile Best Practices](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 * [ContainerTutorials.com](http://containertutorials.com/)
 * [Managing Data with Docker](https://docs.docker.com/storage/)
 * [Docker OverlayFS](https://docs.docker.com/storage/storagedriver/overlayfs-driver/)
-* [Namespaces and cgroups](https://jvns.ca/blog/2016/10/10/what-even-is-a-container/
-)
+* [What a Linux Container Really: Namespaces and cgroups](https://jvns.ca/blog/2016/10/10/what-even-is-a-container/)
 
 ## Tutorial that we are following
 * [ContainerTutorials.com](http://containertutorials.com/)

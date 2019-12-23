@@ -26,12 +26,11 @@ People are expected to contribute by doing preparatory work before meetings and/
 
 # Upcoming Meetings 
 
-* Tuesday Dec 17, 6-9M
-    * [Agenda and RSVP here](https://docs.google.com/forms/d/1cN2QraImfXlUMsLmphRU5Tr17FCkt7JfSzQMXAv-P-A)
-* No meeting the week of Dec 24-27
-
-* Thursday Jan 2 (To be confirmed)
- 
+* Thursday Jan 2, 6-9M  
+    * [Agenda and RSVP here](https://docs.google.com/forms/d/1TzmI3TBpkXbtWAk1N2uKJhSF6Mp8eu9rTHiJ1Czqv0M/)
+    * Note:
+        * No meeting the week of Dec 24-27
+        * This meeting will be on a Thursday NOT our regular Tuesday 
 
 * [Notes from Past Meetings](meetingNotes/README.md)
 
