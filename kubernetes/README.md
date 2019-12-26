@@ -8,6 +8,10 @@
 
 * [Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/)
 
+## Articles on Uuntu Installation
+
+*  [How to install on Ubuntu 18](https://geekflare.com/install-kubernetes-on-ubuntu/)
+
 ## Can the Master also be a worker?
 * Yes: [See this posting](https://stackoverflow.com/questions/43147941/allow-scheduling-of-pods-on-kubernetes-master)
 ```
