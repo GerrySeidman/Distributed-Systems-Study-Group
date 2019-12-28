@@ -18,6 +18,10 @@
 
 * [Nice Article with lots of explanations](https://rancher.com/blog/2019/2019-03-21-comparing-kubernetes-cni-providers-flannel-calico-canal-and-weave/)
 
+## Book on Kubernetes Internals 
+
+* [Kubebuilder Book](https://kubebuilder.io/)
+
 ## Can the Master also be a worker?
 * Yes: [See this posting](https://stackoverflow.com/questions/43147941/allow-scheduling-of-pods-on-kubernetes-master)
 ```
