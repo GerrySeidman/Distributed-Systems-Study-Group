@@ -11,6 +11,11 @@
 ## Service Mesh
 
 * [Istio](https://istio.io/)
+* [Free Book](https://developers.redhat.com/books/introducing-istio-service-mesh-microservices/)
+
+## Microservices
+
+* [Microservices for Java Developers](https://developers.redhat.com/promotions/microservices-for-java-developers/)
 
 ## Virtual File System
 
