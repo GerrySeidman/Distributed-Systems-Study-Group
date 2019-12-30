@@ -79,9 +79,21 @@ Ideally everyone has their VMs set up in the same way. Depending on people's res
 * See Kubernetes Nodes on using the Master as a worker
     * We probably will want to do this so we can do all our playing with only 2 VMs
 
+## Kafka
+7. <a name="7"></a>Set up Kafka running in Kubernetes.  Gerry will take the lead on this, but other 'volunteers' are welcome to help documenting this.
 
-7. <a name="7"></a>Set up a Kafka running in Kubernetes.  Gerry will take the lead on this, but other 'volunteers' are welcome to help documenting this.
+* Running Kafka inside of the Kuberentes Cluster
+*  Validating set-up with a simple Kafka 'Hello world' 
+## Prometheus
 
-* Installing Kafka 
-* Running Kafka 'Hello world' 
+8. <a name="8"></a>Set up Prometheus running in Kubernetes.  Gerry will take the lead on this, but other 'volunteers' are welcome to help documenting this.
+
+* Installing Prometheus inside of the Kubernetes Cluster
+* Validating set-up with a simple Prometheus 'Hello world' 
+ 
+## Grafana
+
+9. <a name="9"></a>Set up Grafana demo running in Kubernetes.  
+* Simple Grafana 'hello world'demo getting metrics from Prometheus
+ 
  
