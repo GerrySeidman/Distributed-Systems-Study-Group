@@ -26,3 +26,5 @@ Instructions for setting up VMs
 
 * [Setting up cloud VMs on Azure](Azure.md)
 
+* [Setting up cloud VMs on IBM Cloud](IBMcloud.md)
+
