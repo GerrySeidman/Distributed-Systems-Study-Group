@@ -83,12 +83,13 @@ There are several sets to setting up the Stem VM:
   
 10. Go to the adapter 2 tab and enable it. Then make it attached to the host-only network you made previously
 
-  ![](/Images/vms/VirtualBox/Adapter2-Host.png)
+    ![](/Images/vms/VirtualBox/Adapter2-Host.png)
 
 11. Save the settings and run the VM so that you can set up Ubuntu
 
 
 ## Setting up Ubuntu 18.04
+**Make sure to complete steps 9 and 10 of the previous section  before setting up Ubuntu**
 1. When you start your new VM select the Ubuntu 18.04 .iso file.
    
    ![](/Images/vms/VirtualBox/Ubuntu-ISO-Selection.png)
@@ -109,9 +110,24 @@ There are several sets to setting up the Stem VM:
 
 ## Cloning the Stem VM
 
-## Assigning the VMs a Static IP Address
+1. Right click on your stemVM and select the clone option
+2. On the pop up screen name your clone VM and change the MAC Address Policy to 'Generate new MAC address for all network adapters'.
 
+    ![](/Images/vms/VirtualBox/CloneScreen1.png)
+
+3. Continue onto the next screen and select 'Linked Clone'. This is done to save on disk space
+
+    ![](/Images/vms/VirtualBox/CloneScreen2.png)
+
+4. After clicking the clone button you should now see your new clone VM ready to go. Run it and proceed to the next section.
+
+## Assigning the VMs a Static IP Address
+  - ```cd /etc/nteplan``` 
   - Config for file /etc/netplan/50-cloud-init.yaml
+    - Notes:
+      - The file can only be edited using the ```sudo``` command
+      - Spacing matters when editing the file. **Don't use tabs**
+      - The address should be within the mask of the host-only network
 
 ```yaml
 network:
@@ -127,3 +143,7 @@ network:
     version: 2
     renderer: networkd
 ```
+- After editing the file, run ```sudo netplan apply```
+- Now you when you check with ifconfig you should see that the enp0s8 has the address that you assigned to it.
+- You should also be able to ssh into your VM using it's new static IP address.
+- Once you have assigned both of your VMs a static IP address you should be able to ping one from the other.
