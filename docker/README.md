@@ -26,8 +26,8 @@
     * [dr: Docker Run ](dockerScripts/dr)
     * [dx: Docker Execute  ](dockerScripts/dx)
 
-    * [dr: Docker PS ](dockerScripts/dps)
-    * [dr: Docker PS All ](dockerScripts/dpsa)
+    * [dps: Docker PS ](dockerScripts/dps)
+    * [dpsa: Docker PS All ](dockerScripts/dpsa)
 
 * Docker Repository (Local)
     * [sdi: Show Docker Images](dockerScripts/dsi)
