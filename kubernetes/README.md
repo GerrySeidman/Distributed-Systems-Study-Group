@@ -12,9 +12,9 @@
 
 # Understanding Kubernetes 
 
-### API Objects 
+## API Objects 
 
-A full description can be here on [API Concepts](ttps://kubernetes.io/docs/reference/using-api/api-concepts/)
+* A full description can be here on [API Concepts](ttps://kubernetes.io/docs/reference/using-api/api-concepts/)
 
 
 * API Object Specification
@@ -25,29 +25,34 @@ A full description can be here on [API Concepts](ttps://kubernetes.io/docs/refer
             * A list of instances of a resource type is known as a ___collection___
             * A single instance of the resource type is called a ___resource___
 
-* Complete list of Kubernetes Resource Types
-    * You can always list them:
+* Exploring the API Objects
+    * Command Line Listing of the Kuberenetes API Objects:
         * ```kubectl api-resources```
-    * We also provided an Excel Spreadsheet version with some notes
-        * [API Object Table](Kubernetes-API-Objects.xlsx)
-    * ```kubectl explain``` also can provide brief descriptions
-        * ```kubectl explain <Object Kind> [--recursive=true]```
-        * Examples:
-            >
-            ```
-            # Get the documentation of the resource and its fields
-            kubectl explain pods
+    * In this repo, there is an [Excel Spreadsheet listing the Kubernetes API Objects](Kubernetes-API-Objects.xlsx) along with some notes and a categorization column grouping them
+    * The ```kubectl explain``` command provides all the fields that belong to the API Objects.  
+        * Below is a capture of the output for several API Objects (Kubernetes v1.17)
 
-            # Get the documentation of a specific field of a resource
-            kubectl explain pods.spec.containers
-            ```   
-    * The full API Object Specification can be gotten via the [Kubernetes API Reference Documentation (1.17)](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.17/)
+        * It is best to explore these with an IDE  that has good fold/expand capabilities 
+            * such as Visual Studio Code with  ```ctl-K ctl-[``` 
+        * Explain output for some common API
+            * [kubectl explain pod --recursive=true](pod.api)
+            * [kubectl explain replicaset --recursive=true](replicaset.api)
+            * [kubectl explain deployment --recursive=true](deployment.api)
+            * [kubectl explain statefulset --recursive=true](statefulset.api)
+            * [kubectl explain pvc --recursive=true](pvc.api)
+            * [kubectl explain pv --recursive=true](pv.api)
+            * [kubectl explain sc --recursive=true](sc.api)
+            * [kubectl explain volumeattachment --recursive=true](volumeattachment.api)
+            * [kubectl explain configmap --recursive=true](configmap.api)
+            * [kubectl explain secret --recursive=true](secret.api)
 
-### Book on Kubernetes Internals 
+        * The full API Object Specification can be gotten via the [Kubernetes API Reference Documentation (1.17)](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.17/)
+
+## Book on Kubernetes Internals 
 
 * [Kubebuilder Book](https://kubebuilder.io/)
 
-### Writing a Kuberenetes Operator
+## Writing a Kuberenetes Operator
 * [Ross Soll's KubeBuilder Tutorial at KubeCon 2019](https://youtu.be/KBTXBUVNF2I?list=PLj6h78yzYM2NDs-iu8WU5fMxINxHXlien)
     * [Tutorial Slides Here](https://pres.metamagical.dev/kubecon-us-2019/)
         * Note UX is not obvious. To view next/prev slide just click somewhere on page then use left/right arrows
