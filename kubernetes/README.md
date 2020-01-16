@@ -33,9 +33,10 @@
         * Below is a capture of the output for several API Objects (Kubernetes v1.17)
 
         * It is best to explore these with an IDE  that has good fold/expand capabilities 
-            * such as Visual Studio Code with  ```ctl-K ctl-[``` 
+            * such as Visual Studio Code with  ```ctl-K ctl-[``` and ```ctl-K ctl-``` 
         * Explain output for some common API
             * [kubectl explain pod --recursive=true](pod.api)
+            * [kubectl explain podTemplate --recursive=true](podTemplate.api)
             * [kubectl explain replicaset --recursive=true](replicaset.api)
             * [kubectl explain deployment --recursive=true](deployment.api)
             * [kubectl explain statefulset --recursive=true](statefulset.api)
