@@ -1,0 +1,52 @@
+KIND:     HorizontalPodAutoscaler
+VERSION:  autoscaling/v1
+
+DESCRIPTION:
+     configuration of a horizontal pod autoscaler.
+
+FIELDS:
+   apiVersion	<string>
+   kind	<string>
+   metadata	<Object>
+      annotations	<map[string]string>
+      clusterName	<string>
+      creationTimestamp	<string>
+      deletionGracePeriodSeconds	<integer>
+      deletionTimestamp	<string>
+      finalizers	<[]string>
+      generateName	<string>
+      generation	<integer>
+      labels	<map[string]string>
+      managedFields	<[]Object>
+         apiVersion	<string>
+         fieldsType	<string>
+         fieldsV1	<map[string]>
+         manager	<string>
+         operation	<string>
+         time	<string>
+      name	<string>
+      namespace	<string>
+      ownerReferences	<[]Object>
+         apiVersion	<string>
+         blockOwnerDeletion	<boolean>
+         controller	<boolean>
+         kind	<string>
+         name	<string>
+         uid	<string>
+      resourceVersion	<string>
+      selfLink	<string>
+      uid	<string>
+   spec	<Object>
+      maxReplicas	<integer>
+      minReplicas	<integer>
+      scaleTargetRef	<Object>
+         apiVersion	<string>
+         kind	<string>
+         name	<string>
+      targetCPUUtilizationPercentage	<integer>
+   status	<Object>
+      currentCPUUtilizationPercentage	<integer>
+      currentReplicas	<integer>
+      desiredReplicas	<integer>
+      lastScaleTime	<string>
+      observedGeneration	<integer>
