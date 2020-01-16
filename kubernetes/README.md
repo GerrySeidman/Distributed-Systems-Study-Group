@@ -41,7 +41,7 @@
             * [kubectl explain statefulset --recursive=true](statefulset.api)
             * [kubectl explain pvc --recursive=true](pvc.api)
             * [kubectl explain pv --recursive=true](pv.api)
-            * [kubectl explain sc --recursive=true](sc.api)
+            * [kubectl explain storageClass --recursive=true](storageClass.api)
             * [kubectl explain volumeattachment --recursive=true](volumeattachment.api)
             * [kubectl explain configmap --recursive=true](configmap.api)
             * [kubectl explain secret --recursive=true](secret.api)

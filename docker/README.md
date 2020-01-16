@@ -41,7 +41,7 @@
     * [dpsa: Docker PS All ](dockerScripts/dpsa)
 
 * Docker Repository (Local)
-    * [sdi: Show Docker Images](dockerScripts/dsi)
+    * [sdi: Show Docker Images](dockerScripts/sdi)
 
     * [rdi: Remove Docker Images](dockerScripts/rdi)
     * [rdxi: Remove Exited Images](dockerScripts/rdxi)
