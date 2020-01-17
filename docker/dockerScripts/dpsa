@@ -1,1 +1,1 @@
-sudo docker ps -a
+sudo docker ps -a  $1 $2 $3 $4
