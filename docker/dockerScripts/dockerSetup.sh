@@ -11,9 +11,10 @@ sudo apt install docker.io
 sudo systemctl start docker
 sudo systemctl enable docker
 
-if [ $NODE -eq $DOCKER_REGISTRY_HOST];
+if [[ $NODE -eq $DOCKER_REGISTRY_HOST ]]
 then
   sudo docker run -d -p 5000:5000 --restart=always --name my-private-registry registry:2
 fi
 
-sudo echo "{ \"insecure-registries\":[\"$DOCKER_REGISTRY_HOST:$DOCKER_REGISTRY_PORT\",\"$DOCKER_REGISTRY_IP:$DOCKER_REGISTRY_PORT\"] }" > /etc/docker/daemon.json
+echo "{ \"insecure-registries\":[\"$DOCKER_REGISTRY_HOST:$DOCKER_REGISTRY_PORT\",\"$DOCKER_REGISTRY_IP:$DOCKER_REGISTRY_PORT\"] }" > daemon.json
+sudo mv daemon.json > /etc/docker/daemon.json
