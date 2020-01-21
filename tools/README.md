@@ -39,6 +39,7 @@
     * watch
     * top
     * tmux
+        * [Section on tmux](tmux.md)
  
 * Books    
     * [Bash Cookbook](http://linux.iingen.unam.mx/Documentacion/Shell-Bash/Bash%20Cookbook~tqw~_darksiderg.pdf) (nice ge

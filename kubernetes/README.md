@@ -40,7 +40,7 @@
             * [kubectl explain replicaset --recursive=true](replicaset.api)
             * [kubectl explain deployment --recursive=true](deployment.api)
             * [kubectl explain statefulset --recursive=true](statefulset.api)
-             * [kubectl explain podAutoScaper --recursive=true](podAutoScaper.api)
+             * [kubectl explain horizontalPodAutoscaler --recursive=true](horizontalPodAutoscaler.api)
             * [kubectl explain pvc --recursive=true](pvc.api)
             * [kubectl explain pv --recursive=true](pv.api)
             * [kubectl explain storageClass --recursive=true](storageClass.api)
