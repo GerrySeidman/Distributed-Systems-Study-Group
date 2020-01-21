@@ -12,7 +12,7 @@ tmux is an immensely useful Linux tool (you can also use it in Cygwin) that allo
 tmux is highly configurable with keyboard shortcuts, functionality, and scripting. Most people have their own personal configuration. Over time, you will likely  add things you pick up from other people into your own personal tmux configuration.    
 * The tmux configuration file must be in ```~/.tmux.conf```
 
-* > [See section below on Diving Deeper into configuring tmux](divingDeeper)
+* > [See section below on Diving Deeper into configuring tmux](#diving-deeper)
 
 
 All tmux keyboard commands are done starting a Prefix key followed by the command key(s). For the remainder of this document we will designate it as **[Prefix]**
@@ -84,11 +84,11 @@ Here is an outline of the capabilites of Gerry's tmux configuration
         * tmux panes works fine when
         * Host Application to tmux pane does not work
     * With Mouse Mode off
-        * [see one of the tmux references for how to do keyboard copy/paste](divingDeeper)
+        * [For how to do cut/paste from keyboard mode, see Diving Deeper references](#diving-deeper)
 
 
-## [Diving deeper into configuring/using tmux](#divingDeeper)
-
+## Diving Deeper 
+ 
  There are many articles, examples, and cheat sheets on the web of 'how best' to configure and use tmux. 
  * [The Tao of tmux](https://leanpub.com/the-tao-of-tmux/read)
  * [tmux cheatsheet site](https://tmuxcheatsheet.com/)
