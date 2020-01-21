@@ -1,4 +1,4 @@
-# tmux 
+# Getting Started with tmux 
 
 tmux is an immensely useful Linux tool (you can also use it in Cygwin) that allows you to run multiple text terminals from within a standard terminal window.  For example:
 * You can have separate windows for 'watching' status
