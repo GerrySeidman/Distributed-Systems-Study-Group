@@ -49,7 +49,7 @@
 * Linux Cheat Sheets
     * [Networking](https://opensource.com/sites/default/files/gated-content/cheat_sheet_linuxnetworking_v2.pdf)
     * [Common Linux Commands](https://opensource.com/sites/default/files/gated-content/cheat_sheet_linux_common_commands.pdf)
-    * [Linux Cheatsheet RedHat](https://developers.redhat.com/download-manager/file/linux_cheatsheet_bw_pdf)
-    * [Advanced Linux (RedHat)](https://developers.redhat.com/download-manager/file/rheladvancedlinux_cheat_sheet_r3v1.pdf)
+    * [Linux Cheatsheet (need free RedHat login)](https://developers.redhat.com/download-manager/file/linux_cheatsheet_bw_pdf)
+    * [Advanced Linux (need free RedHat login)](https://developers.redhat.com/download-manager/file/rheladvancedlinux_cheat_sheet_r3v1.pdf)
     * [SE Linux](https://opensource.com/sites/default/files/gated-content/cheat_sheet_selinux_v2.pdf)
     
