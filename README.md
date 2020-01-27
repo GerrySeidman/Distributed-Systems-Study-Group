@@ -40,5 +40,5 @@ The group will bring people together with different strengths and interests to a
 * [Kafka](kafka/README.md)
 * [Miscellaneous Topics](misc/README.md)
 
-* [Useful/Required Tools](tools/README.md)
+* [Useful/Required Tools, Books, and Cheat Sheats](tools/README.md)
 
