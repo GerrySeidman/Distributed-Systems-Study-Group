@@ -42,9 +42,14 @@
         * [Section on tmux](tmux.md)
  
 * Books    
-    * [Bash Cookbook](http://linux.iingen.unam.mx/Documentacion/Shell-Bash/Bash%20Cookbook~tqw~_darksiderg.pdf) (nice ge
-    * sed & awk
+    * [Bash Cookbook](http://linux.iingen.unam.mx/Documentacion/Shell-Bash/Bash%20Cookbook~tqw~_darksiderg.pdf)
     * [Beginners Guide to Linux Administration](http://linux.iingen.unam.mx/Documentacion/Shell-Bash/Linux%20Administration%205th%20Ed~tqw~_darksiderg.pdf)
 
 
+* Linux Cheat Sheets
+    * [Networking](https://opensource.com/sites/default/files/gated-content/cheat_sheet_linuxnetworking_v2.pdf)
+    * [Common Linux Commands](https://opensource.com/sites/default/files/gated-content/cheat_sheet_linux_common_commands.pdf)
+    * [Linux Cheatsheet RedHat](https://developers.redhat.com/download-manager/file/linux_cheatsheet_bw_pdf)
+    * [Advanced Linux (RedHat)](https://developers.redhat.com/download-manager/file/rheladvancedlinux_cheat_sheet_r3v1.pdf)
+    * [SE Linux](https://opensource.com/sites/default/files/gated-content/cheat_sheet_selinux_v2.pdf)
     
