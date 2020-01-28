@@ -35,18 +35,26 @@
         * It is best to explore these with an IDE  that has good fold/expand capabilities 
             * such as Visual Studio Code with  ```ctl-K ctl-[``` and ```ctl-K ctl-``` 
         * Explain output for some common API
-            * [kubectl explain pod --recursive=true](pod.api)
-            * [kubectl explain podTemplate --recursive=true](podTemplate.api)
-            * [kubectl explain replicaset --recursive=true](replicaset.api)
-            * [kubectl explain deployment --recursive=true](deployment.api)
-            * [kubectl explain statefulset --recursive=true](statefulset.api)
-             * [kubectl explain horizontalPodAutoscaler --recursive=true](horizontalPodAutoscaler.api)
-            * [kubectl explain pvc --recursive=true](pvc.api)
-            * [kubectl explain pv --recursive=true](pv.api)
-            * [kubectl explain storageClass --recursive=true](storageClass.api)
-            * [kubectl explain volumeattachment --recursive=true](volumeattachment.api)
-            * [kubectl explain configmap --recursive=true](configmap.api)
-            * [kubectl explain secret --recursive=true](secret.api)
+            * Pod Related
+                * [kubectl explain pod --recursive=true](pod.api)
+                * [kubectl explain podTemplate --recursive=true](podTemplate.api)
+                * [kubectl explain replicaset --recursive=true](replicaset.api)
+                * [kubectl explain deployment --recursive=true](deployment.api)
+                * [kubectl explain statefulset --recursive=true](statefulset.api)
+                * [kubectl explain horizontalPodAutoscaler --recursive=true](horizontalPodAutoscaler.api)
+            * Volume Related
+                * [kubectl explain pvc --recursive=true](pvc.api)
+                * [kubectl explain pv --recursive=true](pv.api)
+                * [kubectl explain storageClass --recursive=true](storageClass.api)
+                * [kubectl explain volumeattachment --recursive=true](volumeattachment.api)
+                * [kubectl explain configmap --recursive=true](configmap.api)
+            * Security Related
+               * [kubectl explain secret --recursive=true](secret.api)
+               * [kubectl explain role --recursive=true](role.api)
+               * [kubectl explain roleBinding --recursive=true](roleBinding.api)
+               * [kubectl explain clusterRole --recursive=true](clusterRole.api)
+               * [kubectl explain clusterRoleBinding --recursive=true](clusterRoleBinding.api)
+               
 
         * The full API Object Specification can be gotten via the [Kubernetes API Reference Documentation (1.17)](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.17/)
 

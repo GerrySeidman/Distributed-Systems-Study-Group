@@ -1,0 +1,52 @@
+KIND:     ClusterRole
+VERSION:  rbac.authorization.k8s.io/v1
+
+DESCRIPTION:
+     ClusterRole is a cluster level, logical grouping of PolicyRules that can be
+     referenced as a unit by a RoleBinding or ClusterRoleBinding.
+
+FIELDS:
+   aggregationRule	<Object>
+      clusterRoleSelectors	<[]Object>
+         matchExpressions	<[]Object>
+            key	<string>
+            operator	<string>
+            values	<[]string>
+         matchLabels	<map[string]string>
+   apiVersion	<string>
+   kind	<string>
+   metadata	<Object>
+      annotations	<map[string]string>
+      clusterName	<string>
+      creationTimestamp	<string>
+      deletionGracePeriodSeconds	<integer>
+      deletionTimestamp	<string>
+      finalizers	<[]string>
+      generateName	<string>
+      generation	<integer>
+      labels	<map[string]string>
+      managedFields	<[]Object>
+         apiVersion	<string>
+         fieldsType	<string>
+         fieldsV1	<map[string]>
+         manager	<string>
+         operation	<string>
+         time	<string>
+      name	<string>
+      namespace	<string>
+      ownerReferences	<[]Object>
+         apiVersion	<string>
+         blockOwnerDeletion	<boolean>
+         controller	<boolean>
+         kind	<string>
+         name	<string>
+         uid	<string>
+      resourceVersion	<string>
+      selfLink	<string>
+      uid	<string>
+   rules	<[]Object>
+      apiGroups	<[]string>
+      nonResourceURLs	<[]string>
+      resourceNames	<[]string>
+      resources	<[]string>
+      verbs	<[]string>
