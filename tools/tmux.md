@@ -79,12 +79,15 @@ Here is an outline of the capabilites of Gerry's tmux configuration
 
         * Specifically: ```Ctl-a + ]```
 
-* Cutting and pasting between tmux and host applications 
-    * When Mouse Mode is on
-        * tmux panes works fine when
-        * Host Application to tmux pane does not work
-    * With Mouse Mode off
-        * [For how to do cut/paste from keyboard mode, see Diving Deeper references](#diving-deeper)
+* Cutting and pasting between tmux and host applications When Mouse Mode is ON (Windows/CygWin, not sure on other host OSs)
+    * tmux panes => tmux panes:  Works
+    * tmux panes => host applications: Works
+    * host applications => tmux panes: DOES NOT WORK
+    * However, when Mouse Mode is OFF you can paste, so what I do is:
+        * Temporarily turn mouse mode OFF (```[Prefix]-m```)
+        * Paste as needed
+        * Temporarily turn mouse mode ON (```[Prefix]-M```)
+
 
 
 ## Diving Deeper 
