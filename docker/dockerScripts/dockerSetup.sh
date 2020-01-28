@@ -17,4 +17,5 @@ then
 fi
 
 echo "{ \"insecure-registries\":[\"$DOCKER_REGISTRY_HOST:$DOCKER_REGISTRY_PORT\",\"$DOCKER_REGISTRY_IP:$DOCKER_REGISTRY_PORT\"] }" > daemon.json
-sudo mv daemon.json > /etc/docker/daemon.json
+sudo mv daemon.json /etc/docker/daemon.json
+sudo systemctl restart docker
