@@ -27,7 +27,7 @@
 
     * socat
 
-* Basic Linux
+* <A id="BasicLinux"> Basic Linux </A>
     * General familiarity with Bash shell & programming
     * grep
     * awk

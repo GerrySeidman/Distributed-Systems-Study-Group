@@ -1,0 +1,71 @@
+KIND:     Event
+VERSION:  v1
+
+DESCRIPTION:
+     Event is a report of an event somewhere in the cluster.
+
+FIELDS:
+   action	<string>
+   apiVersion	<string>
+   count	<integer>
+   eventTime	<string>
+   firstTimestamp	<string>
+   involvedObject	<Object>
+      apiVersion	<string>
+      fieldPath	<string>
+      kind	<string>
+      name	<string>
+      namespace	<string>
+      resourceVersion	<string>
+      uid	<string>
+   kind	<string>
+   lastTimestamp	<string>
+   message	<string>
+   metadata	<Object>
+      annotations	<map[string]string>
+      clusterName	<string>
+      creationTimestamp	<string>
+      deletionGracePeriodSeconds	<integer>
+      deletionTimestamp	<string>
+      finalizers	<[]string>
+      generateName	<string>
+      generation	<integer>
+      labels	<map[string]string>
+      managedFields	<[]Object>
+         apiVersion	<string>
+         fieldsType	<string>
+         fieldsV1	<map[string]>
+         manager	<string>
+         operation	<string>
+         time	<string>
+      name	<string>
+      namespace	<string>
+      ownerReferences	<[]Object>
+         apiVersion	<string>
+         blockOwnerDeletion	<boolean>
+         controller	<boolean>
+         kind	<string>
+         name	<string>
+         uid	<string>
+      resourceVersion	<string>
+      selfLink	<string>
+      uid	<string>
+   reason	<string>
+   related	<Object>
+      apiVersion	<string>
+      fieldPath	<string>
+      kind	<string>
+      name	<string>
+      namespace	<string>
+      resourceVersion	<string>
+      uid	<string>
+   reportingComponent	<string>
+   reportingInstance	<string>
+   series	<Object>
+      count	<integer>
+      lastObservedTime	<string>
+      state	<string>
+   source	<Object>
+      component	<string>
+      host	<string>
+   type	<string>
