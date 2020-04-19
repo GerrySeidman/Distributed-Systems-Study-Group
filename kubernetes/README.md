@@ -32,8 +32,12 @@
     * The ```kubectl explain``` command provides all the fields that belong to the API Objects.  
         * Below is a capture of the output for several API Objects (Kubernetes v1.17)
 
-        * It is best to explore these with an IDE  that has good fold/expand capabilities 
-            * such as Visual Studio Code with  ```ctl-K ctl-[``` and ```ctl-K ctl-``` 
+        * It is best to explore these with an IDE  that has good Collapse/Expand capabilities 
+            * such as Visual Studio Code with  
+                * Current: ```ctl-K ctl-[``` and ```ctl-K ctl-]```
+                * All: ```ctl-K ctl-0``` and ```ctl-J```
+    
+                
         * Explain output for some common API
             * Pod Related
                 * [kubectl explain pod --recursive=true](pod.api)
